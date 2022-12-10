@@ -1,0 +1,75 @@
+   0 cd /home 
+   1 mkdir animals 
+   2 ls
+   3 cd animals/
+   4 mkdir Dogs, cats, fish 
+   5 ls
+   6 cd Dogs/
+   7 cd Dogs,/
+   8 touch Pluto.txt 
+   9 ls
+  10 cd ..
+  11 ls
+  12 cd cats,/
+  13 touch garfield.txt
+  14 ls
+  15 cd ..
+  16 cd fish/
+  17 touch nemo.txt 
+  18 cd..
+  19 cd ..
+  20 cd..
+  21 cd ..
+  22 mkdir /tmp
+  23 mkdir tmp 
+  24 mkdir tmp/
+  25 ls
+  26 cd tmp/
+  27 touch adam.txt 
+  28 ls
+  29 cd .. 
+  30 mkdir homans/
+  31 mkdir homans 
+  32 cd homans/
+  33 ls
+  34 cd .. 
+  35 ls
+  36 cp adam.txt  homans/
+  37 ls
+  38 cd tmp/
+  39 ls
+  40 cp adam.txt homans/
+  41 ls
+  42 cp adam.txt home/homans/
+  43 cp adam.txt home/homans/ 
+  44 ls
+  45 cd .. 
+  46 cd homans/
+  47 ls
+  48 cp adam.txt tmp/homans/
+  49 ls
+  50  cd .. 
+  51 cp tmp/adam.txt home/homans
+  52 cp tmp/adam.txt homans/
+  53 cd homans/
+  54 ls
+  55 cd ..
+  56 cd tmp/
+  57 ls
+  58 toush eVa.txt 
+  59 touch eVa.txt
+  60 ls
+  61 mv eVa,txt evA.txt
+  62 mv eVa.txt evA.txt 
+  63 ls
+  64 cd .. 
+  65 mv evA.txt home/homans
+  66 mv tmp/evA.txt home/homans 
+  67 mv evA.txt/tmp homans/
+  68 cp tmp/evA.txt homans/
+  69 cd homas/
+  70 cd homans/
+  71 ls
+  72 cd .. 
+  73 cd ..
+  74 history > history.txt 
